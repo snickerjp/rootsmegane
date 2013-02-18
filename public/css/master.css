@@ -196,8 +196,27 @@ body {
   -ms-text-size-adjust: 100%;
 }
 body {
-  padding: 50px;
   background: #00a6fc;
   color: #fff;
   font-size: 200%;
+}
+.headernav {
+  height: 100px;
+  background: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+  opacity: 0.75;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  color: #00a6fc;
+}
+.content {
+  width: 90%;
+  position: relative;
+  top: 150px;
+  margin: 0 50px 0 50px;
+}
+h1 {
+  margin: 0;
+  padding: 5px 0 0 50px;
 }
