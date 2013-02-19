@@ -230,6 +230,14 @@ h3 {
   max-width: 960px;
   margin: 0 auto;
 }
+.mainimg {
+  height: 550px;
+  background: #f8ca5c;
+  overflow: hidden;
+}
+img {
+  border: none;
+}
 footer {
   height: 500px;
   background: #000;
