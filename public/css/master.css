@@ -207,6 +207,9 @@ h2 {
   border: none;
   font-size: 150%;
 }
+h3 {
+  border-top: 1px solid;
+}
 .headernav {
   height: 50px;
   background: #000;
@@ -216,16 +219,27 @@ h2 {
   width: 100%;
   z-index: 10;
   color: #00a6fc;
+  padding-bottom: 10px;
 }
 .content {
-  width: 90%;
+  width: 100%;
   position: relative;
-  top: 50px;
-  margin: 0 50px 0 50px;
+  top: 100px;
 }
-h1 {
-  margin: 0;
-  padding: 5px 0 0 50px;
+.row {
+  max-width: 960px;
+  margin: 0 auto;
+}
+footer {
+  height: 500px;
+  background: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+  opacity: 0.75;
+  clear: both;
+  margin-top: 200px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 80%;
 }
 a {
   color: #fff;
